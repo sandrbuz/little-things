@@ -1,12 +1,26 @@
-let test1 = function (howManyTimes, whatToDraw) {
+// let test1 = function (howManyTimes, whatToDraw) {
 
-    for (i = 0; i < howManyTimes; i++) {
-        console.log(i + " " + whatToDraw);
+//     for (i = 0; i < howManyTimes; i++) {
+//         console.log(i + " " + whatToDraw);
+//     }
+
+
+// };
+
+// test1(5, 'fsdfs');
+
+
+let test = function (name) {
+    if (name.length < 5) {
+        return;
     }
-
-
+    return 'пятая буква вашего имени:' + name[4] + '.';
 };
 
-test1(5, 'fsdfs');
+
+
+console.log(test('Николай'));
+
+
 
 
