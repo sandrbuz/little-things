@@ -1,0 +1,35 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+#wrapperr {
+  display: inline-block;
+}
+.point1,
+.point2,
+.point3,
+.point4 {
+  display: none;
+}
+.open {
+  display: block;
+  margin-left: 20px;
+}
+
+.high {
+  display: flex;
+}
+
+/* .arrow1 {
+  display: none;
+} */
+.arrow2 {
+  display: none;
+}
+
+.open-arr {
+  display: block;
+}
+.close-arr {
+  display: none;
+}
